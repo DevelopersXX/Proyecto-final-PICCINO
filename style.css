@@ -1,0 +1,490 @@
+@import url("https://fonts.googleapis.com/css2?family=Island+Moments&family=Luxurious+Roman&display=swap");
+@import url("https://fonts.googleapis.com/css2? family= Cairo & family= Island+Moments & family= Luxurious+Roman & display=swap");
+@import url("https://fonts.googleapis.com/css2? family= Lujoso+Romano & display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(./image/Fondo.png);
+}
+
+/* css Pagina de inicio */
+/* Css nab */
+.imgnav {
+  width: 40px;
+}
+
+/* Css nab fin*/
+/* Jumbotron */
+.jumbotron {
+  background-image: url(./image/home.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 856px;
+  margin: 0;
+}
+.jumbotron .animacion {
+  color: transparent;
+  -moz-text-stroke-width: 2px;
+  -webkit-text-stroke-width: 2px;
+  -moz-text-stroke-color: #000000;
+  -webkit-text-stroke-color: blanchedalmond;
+}
+.jumbotron .animacion {
+  text-shadow: 7px 7px #424242;
+}
+.jumbotron .text {
+  color: #fff;
+  font-size: 40px;
+  font-style: bold;
+  text-align: center;
+}
+.jumbotron .text1 {
+  margin-top: 10%;
+  font-size: 60px;
+  text-align: center;
+}
+.jumbotron .text2 {
+  font-size: 100px;
+  color: bisque;
+  text-align: center;
+  box-shadow: rgba(215, 215, 224, 0.5) 0px 30px 60px -12px inset;
+}
+.jumbotron .but {
+  color: burlywood;
+  margin-left: 46%;
+}
+
+.btn-tex1 {
+  font-family: verdana;
+}
+
+.btn-tex2 {
+  font-family: sans-serif;
+}
+
+.btn-tex3 {
+  font-family: cursive;
+}
+
+/* JumbotronFin */
+/* Css footer */
+.foo {
+  text-align: center;
+  padding: 15px;
+}
+
+/* CSS nosotros */
+.text3, .text3-nueva {
+  color: #ebd994;
+  height: 50px;
+  text-align: center;
+}
+
+.text3-nueva {
+  font-family: cursive;
+}
+
+/* NosotrosIzq */
+.n-left {
+  height: 800px;
+  background-color: blanchedalmond;
+  margin: 0;
+  border-radius: 5px 5px 5px 5px;
+  text-align: center;
+}
+.n-left .text4 {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 10%;
+  font-family: "Island Moments", cursive;
+}
+.n-left #img-contenedor {
+  text-align: center;
+}
+
+/* NosotrosDer */
+.n-right {
+  height: 800px;
+  margin: 0px;
+  border-radius: 5px 5px 5px 5px;
+  text-align: center;
+}
+.n-right .carru {
+  margin-top: 20%;
+}
+
+/* Servicios css */
+.s-left {
+  height: 800px;
+  background-image: url(./image/parquizaciones.png);
+  background-size: cover;
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+  margin: 0;
+  border-radius: 5px 5px 5px 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card1 {
+  width: 400px;
+  text-align: center;
+}
+
+/* main serviciosder */
+.s-right {
+  height: 800px;
+  background-image: url(./image/riego.png);
+  background-size: cover;
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+  margin: 0;
+  border-radius: 5px 5px 5px 5px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* productos CSS */
+.p-left {
+  height: 800px;
+  margin: 0;
+  border-radius: 5px 5px 5px 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.card2 {
+  width: 540px;
+  text-align: center;
+}
+
+/* main productosder */
+.p-right {
+  height: 800px;
+  background-size: cover;
+  margin: 0;
+  border-radius: 5px 5px 5px 5px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* contacto CSS */
+.c-left {
+  height: 800px;
+  margin: 0;
+  border-radius: 5px 5px 5px 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.c-left .form {
+  width: 340px;
+  height: 440px;
+  background: #e6e6e6;
+  border-radius: 8px;
+  box-shadow: 0 0 40px -10px #000000;
+  padding: 20px 30px;
+  max-width: calc(100vw - 40px);
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+.c-left .form h4 {
+  margin: 10px 0;
+  padding-bottom: 10px;
+  width: 180px;
+  color: #78788c;
+  border-bottom: 3px solid #78788c;
+}
+.c-left .form input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  background: none;
+  outline: none;
+  resize: none;
+  border: 0;
+  font-family: "Montserrat", sans-serif;
+  transition: all 0.3s;
+  border-bottom: 2px solid #bebed2;
+}
+.c-left .form input:focus {
+  border-bottom: 2px solid #78788c;
+}
+.c-left .form p:before {
+  content: attr(type);
+  display: block;
+  margin: 28px 0 0;
+  font-size: 14px;
+  color: #5a5a5a;
+}
+.c-left .form .butc {
+  float: right;
+  padding: 8px 12px;
+  margin: 8px 0 0;
+  font-family: "Montserrat", sans-serif;
+  border: 2px solid #78788c;
+  background: 0;
+  color: #5a5a6e;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.c-left .form button:hover {
+  background: #78788c;
+  color: #fff;
+}
+.c-left .form .divc {
+  content: "Hi";
+  position: absolute;
+  bottom: 140px;
+  right: 316px;
+  background: #50505a;
+  color: #fff;
+  width: 320px;
+  padding: 16px 4px 16px 0;
+  border-radius: 6px;
+  font-size: 13px;
+  box-shadow: 10px 10px 40px -14px #000000;
+}
+.c-left .form span {
+  margin: 0px 15px 0px 10px;
+}
+
+/* main contactoder */
+.c-right {
+  height: 800px;
+  background-size: cover;
+  margin: 0;
+  border-radius: 5px 5px 5px 5px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.c-right #img-contenedor2 {
+  margin: 5%;
+  box-shadow: rgba(34, 34, 37, 0.5) 0px 30px 60px -12px inset;
+}
+.c-right iframe {
+  width: 400px;
+  height: 450px;
+}
+
+@media all and (min-width: 600px) and (max-width: 1023px) {
+  /* CSS nosotros */
+  .text3, .text3-nueva {
+    color: #ebd994;
+    height: 50px;
+    text-align: center;
+  }
+
+  /* NosotrosIzq */
+  .n-left {
+    height: 1000px;
+    background-color: blanchedalmond;
+    margin: 0;
+    border-radius: 5px 5px 5px 5px;
+  }
+  .n-left .text4 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 10%;
+    font-family: "Island Moments", cursive;
+    padding: 10px;
+  }
+  .n-left #img-contenedor {
+    text-align: center;
+  }
+
+  /* NosotrosDer */
+  .n-right {
+    height: 800px;
+    margin: 0;
+    border-radius: 5px 5px 5px 5px;
+    text-align: center;
+  }
+  .n-right .carru {
+    margin-top: 20%;
+  }
+
+  /* productos CSS */
+  .p-left {
+    height: 800px;
+    margin-top: 20%;
+    border-radius: 5px 5px 5px 5px;
+  }
+
+  .p-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .card2 {
+    width: 540px;
+    text-align: center;
+  }
+
+  /* main productosder */
+  .p-right {
+    height: 800px;
+    background-size: cover;
+    margin-top: 7%;
+    border-radius: 5px 5px 5px 5px;
+    text-align: center;
+  }
+
+  .p-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  /* Contacto CSS */
+  .divc {
+    content: "Hi";
+    position: absolute;
+    bottom: 140px;
+    right: 180px;
+    background: #50505a;
+    color: #fff;
+    width: 320px;
+    padding: 16px 4px 16px 0;
+    border-radius: 6px;
+    font-size: 13px;
+    box-shadow: 10px 10px 40px -14px #000000;
+  }
+
+  span {
+    margin: 0px 15px 0px 10px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  /* Home */
+  .text2 {
+    font-size: 70px;
+    color: bisque;
+    text-align: center;
+    margin: 0px;
+    box-shadow: rgba(215, 215, 224, 0.5) 0px 30px 60px -12px inset;
+  }
+
+  .but {
+    color: burlywood;
+    margin-left: 0%;
+    padding: 0%;
+  }
+
+  /* Nosotros CSS */
+  .text3, .text3-nueva {
+    color: #ebd994;
+    height: 50px;
+    text-align: center;
+  }
+
+  .text3-nueva {
+    font-family: cursive;
+  }
+
+  /* NosotrosIzq */
+  .n-left {
+    height: 800px;
+    background-color: blanchedalmond;
+    margin: 0;
+    border-radius: 5px 5px 5px 5px;
+    text-align: center;
+  }
+  .n-left .text4 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10%;
+    font-family: "Island Moments", cursive;
+  }
+  .n-left #img-contenedor {
+    text-align: center;
+  }
+
+  /* NosotrosDer */
+  .n-right {
+    height: 800px;
+    margin: 0px;
+    border-radius: 5px 5px 5px 5px;
+    text-align: center;
+  }
+  .n-right .carru {
+    margin-top: 20%;
+  }
+
+  /* productos CSS */
+  .p-left {
+    height: 800px;
+    margin-top: 40%;
+    border-radius: 5px 5px 5px 5px;
+  }
+
+  .p-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .card2 {
+    width: 400px;
+    text-align: center;
+  }
+
+  /* main productosder */
+  .p-right {
+    height: 1000px;
+    background-size: cover;
+    margin-top: 40%;
+    border-radius: 5px 5px 5px 5px;
+    text-align: center;
+  }
+
+  .p-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  /* contacto CSS */
+  iframe {
+    width: 400px;
+    height: 450px;
+  }
+
+  .divc {
+    content: "Hi";
+    position: absolute;
+    bottom: 140px;
+    right: -60px;
+    background: #50505a;
+    color: #fff;
+    width: 320px;
+    padding: 16px 4px 16px 0;
+    border-radius: 6px;
+    font-size: 13px;
+    box-shadow: 10px 10px 40px -14px #000;
+  }
+
+  span {
+    margin: 0px 15px 0px 10px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
