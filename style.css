@@ -373,7 +373,14 @@ body {
 }
 @media only screen and (max-width: 400px) {
   /* Home */
-  .text2 {
+  .jumbotron {
+    background-image: url(./image/home.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+    margin: 0;
+  }
+  .jumbotron .text2 {
     font-size: 70px;
     color: bisque;
     text-align: center;
@@ -408,7 +415,7 @@ body {
   }
   .n-left .text4 {
     text-align: center;
-    font-size: 30px;
+    font-size: 28px;
     margin-top: 10%;
     font-family: "Island Moments", cursive;
   }
@@ -472,7 +479,7 @@ body {
     content: "Hi";
     position: absolute;
     bottom: 140px;
-    right: -60px;
+    right: 35px;
     background: #50505a;
     color: #fff;
     width: 320px;

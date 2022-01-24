@@ -439,12 +439,20 @@ $font in $test {
 
     /* Home */
 
-    .text2 {
-        font-size: 70px;
-        color: bisque;
-        text-align: $backpo;
-        margin: 0px;
-        box-shadow: rgba(215, 215, 224, 0.5) 0px 30px 60px -12px inset
+    .jumbotron {
+        background-image: url(./image/home.jpg);
+        background-size: $backsi;
+        background-position: $backpo;
+        height: 900px;
+        margin: 0;
+
+        .text2 {
+            font-size: 70px;
+            color: bisque;
+            text-align: $backpo;
+            margin: 0px;
+            box-shadow: rgba(215, 215, 224, 0.5) 0px 30px 60px -12px inset
+        }
     }
 
     .but {
@@ -477,7 +485,7 @@ $font in $test {
 
         .text4 {
             text-align: $backpo;
-            font-size: 30px;
+            font-size: 28px;
             margin-top: 10%;
             font-family: 'Island Moments', cursive;
         }
@@ -552,7 +560,7 @@ $font in $test {
         content: 'Hi';
         position: absolute;
         bottom: 140px;
-        right: -60px;
+        right: 35px;
         background: $color3;
         color: #fff;
         width: 320px;
