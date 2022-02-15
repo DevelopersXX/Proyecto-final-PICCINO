@@ -1,0 +1,1 @@
+El proyecto se trata de un sitio web inspirado para un negocio familiar, que para un futuro le van a querer hacer una pagina web a su marca. Por el momento es una prueba (este sitio web no va a ser subido a un dominio)

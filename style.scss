@@ -119,7 +119,6 @@ $font in $test {
 /* NosotrosIzq */
 .n-left {
     height: 800px;
-    background-color: $color1;
     margin: 0;
     border-radius: 5px 5px 5px 5px;
     text-align: $backpo;
@@ -194,7 +193,7 @@ $font in $test {
 
 .p-left {
     height: 800px;
-    margin: 0;
+    margin-top: 2%;
     border-radius: 5px 5px 5px 5px;
     display: $dis;
     align-items: $backpo;
@@ -335,31 +334,23 @@ $font in $test {
     }
 }
 
-@media all and (min-width: 600px) and (max-width: 1023px) {
-    /* CSS nosotros */
-
-    .text3 {
-        color: rgb(235, 217, 148);
-        height: 50px;
-        text-align: $backpo;
-    }
-
-    /* NosotrosIzq */
-    .n-left {
+@media only screen and (min-width: 1060px) {
+     /* NosotrosIzq */
+     .n-left {
         height: 1000px;
-        background-color: $color1;
         margin: 0;
         border-radius: 5px 5px 5px 5px;
 
         .text4 {
             text-align: $backpo;
-            font-size: 40px;
+            font-size: 38px;
             margin-top: 10%;
             font-family: 'Island Moments', cursive;
-            padding: 10px;
+            padding: 0px;
         }
 
         #img-contenedor {
+            margin-top: 20%;
             text-align: $backpo;
         }
     }
@@ -373,9 +364,82 @@ $font in $test {
         text-align: $backpo;
 
         .carru {
-            margin-top: 20%;
+            margin-top: 10%;
+            margin-bottom:0%;
         }
     }
+    
+
+}
+
+@media only screen and (min-width: 410px) and (max-width: 1023px) {
+    /* CSS nosotros */
+
+    /* NosotrosIzq */
+    .n-left {
+        height: 1000px;
+        margin: 0;
+        border-radius: 5px 5px 5px 5px;
+
+        .text4 {
+            text-align: $backpo;
+            font-size: 28px;
+            margin-top: 10%;
+            font-family: 'Island Moments', cursive;
+            padding: 0px;
+        }
+
+        #img-contenedor {
+            margin-top: 20%;
+            text-align: $backpo;
+        }
+    }
+
+    /* NosotrosDer */
+
+    .n-right {
+        height: 800px;
+        margin: 0;
+        border-radius: 5px 5px 5px 5px;
+        text-align: $backpo;
+
+        .carru {
+            margin-top: 10%;
+        }
+    }
+
+    /* Servicios css */
+
+.s-left {
+    height: 800px;
+    background-image: url(./image/parquizaciones.png);
+    background-size: $backsi;
+    margin: 0;
+    border-radius: 5px 5px 5px 5px;
+    display: $dis;
+    align-items: $backpo;
+    justify-content: $backpo;
+}
+
+
+.card1 {
+    width: 400px;
+    text-align: $backpo;
+}
+
+/* main serviciosder */
+
+.s-right {
+    height: 800px;
+    background-image: url(./image/riego.png);
+    background-size: $backsi;
+    margin: 0;
+    border-radius: 5px 5px 5px 5px;
+    text-align: $backpo;
+    display: $dis;
+    align-items: $backpo;
+    justify-content: $backpo;
+}
 
     /* productos CSS */
 
@@ -383,6 +447,7 @@ $font in $test {
         height: 800px;
         margin-top: 20%;
         border-radius: 5px 5px 5px 5px;
+        padding-left: 2%;
     }
 
     .p-left {
@@ -393,7 +458,7 @@ $font in $test {
     }
 
     .card2 {
-        width: 540px;
+        width: 490px;
         text-align: $backpo;
     }
 
@@ -416,24 +481,96 @@ $font in $test {
 
     /* Contacto CSS */
 
-    .divc {
-        content: 'Hi';
-        position: absolute;
-        bottom: 140px;
-        right: 180px;
-        background: $color3;
-        color: #fff;
-        width: 320px;
-        padding: 16px 4px 16px 0;
-        border-radius: 6px;
-        font-size: 13px;
-        box-shadow: 10px 10px 40px -14px $color5;
-    }
-
-    span {
-        margin: 0px 15px 0px 10px
+    .c-left {
+        height: 800px;
+        margin: 0;
+        border-radius: 5px 5px 5px 5px;
+        display: $dis;
+        align-items: $backpo;
+        justify-content: $backpo;
+    
+        .form {
+            width: 340px;
+            height: 440px;
+            background: $color4;
+            border-radius: 8px;
+            box-shadow: 0 0 40px -10px $color5;
+            padding: 20px 30px;
+            max-width: calc(100vw - 40px);
+            box-sizing: border-box;
+            font-family: 'Montserrat', sans-serif;
+    
+            h4 {
+                margin: 10px 0;
+                padding-bottom: 10px;
+                width: 180px;
+                color: $color2;
+                border-bottom: 3px solid $color2;
+            }
+    
+            input {
+                width: 100%;
+                padding: 10px;
+                box-sizing: border-box;
+                background: none;
+                outline: none;
+                resize: none;
+                border: 0;
+                font-family: 'Montserrat', sans-serif;
+                transition: all .3s;
+                border-bottom: 2px solid #bebed2
+            }
+    
+            input:focus {
+                border-bottom: 2px solid $color2;
+            }
+    
+            p:before {
+                content: attr(type);
+                display: block;
+                margin: 28px 0 0;
+                font-size: 14px;
+                color: #5a5a5a
+            }
+    
+            .butc {
+                float: right;
+                padding: 8px 12px;
+                margin: 8px 0 0;
+                font-family: 'Montserrat', sans-serif;
+                border: 2px solid $color2;
+                background: 0;
+                color: #5a5a6e;
+                cursor: pointer;
+                transition: all .3s
+            }
+    
+            button:hover {
+                background: $color2;
+                color: #fff
+            }
+    
+            .divc {
+                content: 'Hi';
+                position: absolute;
+                bottom: 140px;
+                right: 83px;
+                background: $color3;
+                color: #fff;
+                width: 320px;
+                padding: 16px 4px 16px 0;
+                border-radius: 6px;
+                font-size: 13px;
+                box-shadow: 10px 10px 40px -14px $color5;
+            }
+    
+            span {
+                margin: 0px 15px 0px 10px
+            }
+        }
     }
 }
+
 
 @media only screen and (max-width: 400px) {
 
@@ -464,21 +601,9 @@ $font in $test {
 
     /* Nosotros CSS */
 
-    .text3 {
-        color: rgb(235, 217, 148);
-        height: 50px;
-        text-align: $backpo;
-    }
-
-    .text3-nueva {
-        @extend .text3;
-        font-family: cursive;
-    }
-
     /* NosotrosIzq */
     .n-left {
         height: 800px;
-        background-color: $color1;
         margin: 0;
         border-radius: 5px 5px 5px 5px;
         text-align: $backpo;
@@ -491,6 +616,7 @@ $font in $test {
         }
 
         #img-contenedor {
+            width: 150px;
             text-align: $backpo;
         }
     }
@@ -506,9 +632,9 @@ $font in $test {
 
     .n-right {
         @include nosder(800px, 0px, 5px 5px 5px 5px, $backpo);
-
+        
         .carru {
-            margin-top: 20%;
+            margin-top: 10%;
         }
     }
 
@@ -516,8 +642,11 @@ $font in $test {
 
     .p-left {
         height: 800px;
-        margin-top: 40%;
         border-radius: 5px 5px 5px 5px;
+    }
+
+    .p-left {
+        margin-top: 20%;
     }
 
     .p-left {
@@ -548,6 +677,39 @@ $font in $test {
         justify-content: $backpo;
         flex-direction: $pos;
     }
+
+    /* Servicios css */
+
+.s-left {
+    height: 800px;
+    background-image: url(./image/parquizaciones.png);
+    background-size: $backsi;
+    margin: 0;
+    border-radius: 5px 5px 5px 5px;
+    display: $dis;
+    align-items: $backpo;
+    justify-content: $backpo;
+}
+
+
+.card1 {
+    width: 400px;
+    text-align: $backpo;
+}
+
+/* main serviciosder */
+
+.s-right {
+    height: 800px;
+    background-image: url(./image/riego.png);
+    background-size: $backsi;
+    margin: 0;
+    border-radius: 5px 5px 5px 5px;
+    text-align: $backpo;
+    display: $dis;
+    align-items: $backpo;
+    justify-content: $backpo;
+}
 
     /* contacto CSS */
 
@@ -630,7 +792,7 @@ $font in $test {
                 content: 'Hi';
                 position: absolute;
                 bottom: 140px;
-                right: 35px;
+                right: 40px;
                 background: $color3;
                 color: #fff;
                 width: 320px;
